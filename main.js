@@ -8,7 +8,6 @@ verticalNavbar.addEventListener("click", () => {
         nav.style.height = "100%";
         nav.style.background = "#000";
         nav.style.transition = "width 3s, height 3s";
-        bars.style.color = "#fff";
         bars.style.transform = "rotate(90deg)";
         bars.style.transition = "1s";
     } else if(nav.style.width === "500px" && nav.style.height === "100%") {
