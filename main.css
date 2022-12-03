@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Vollkorn&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    user-select: none;
+}
+
+body {
+    background-color: rgb(177, 177, 177);
+    font-family: 'Vollkorn', serif;
+}
+
+.vertical-navbar {
+    display: flex;
+    justify-content: flex-end;
+    font-size: 2.5rem;
+    cursor: pointer;
+}
+
+.vertical-navbar i {
+    color: #000;
+    margin: 20px;
+    z-index: 1;
+}
+
+.list {
+    padding-top: 100px;
+}
+
+nav {
+    background-color: black;
+    width: 0;
+    height: 0;
+    position: absolute;
+    right: 0;
+    top: 0;
+    text-align: center;
+    box-shadow: 0 0 4px #000;
+    border-radius: 20px 0 0 20px;
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav ul li:hover {
+    background-color: #ddd;
+    cursor: pointer;
+    transition: .5s ease-in-out;
+}
+
+nav ul li a:hover {
+    color: #000;
+}
+
+nav ul li a {
+    line-height: 2.5;
+    font-size: 1.5rem;
+    text-transform: uppercase;
+    text-decoration: none;
+    letter-spacing: 2px;
+    color: #fff;
+}
